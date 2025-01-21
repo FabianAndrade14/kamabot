@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.chatbot_env/
+.chatbot_env/*
+
+# Archivos de configuración de entornos locales
+*.env
+*.env.*
+
+# Archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración del IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos de compilación de modelos
+models/trained_model.h5
+models/*.pkl
