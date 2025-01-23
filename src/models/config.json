@@ -1,0 +1,12 @@
+{
+    "apps": {
+        "whatsapp": {
+            "intents_file": "data/intents/whatsapp.json",
+            "model_path": "models/whasapp_model.h5"
+        },
+        "telegram": {
+            "intents_file": "data/intents/telegram.json",
+            "model_path": "models/telegram_model.h5"
+        }
+    }
+}
