@@ -11,3 +11,7 @@ chatbot_env\Scripts\activate
 ```
 pip install flask requests tensorflow sklearn nltk python-dotenv
 ```
+Note: for the deprecated packages, like sklearn, try to update the pip, to the 24 version before you go forward in this guide. to replace the sklearn, the updated package is scikit-learn.
+```
+pip install scikit-learn
+```
